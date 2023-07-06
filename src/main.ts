@@ -2,7 +2,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
+// 跟组件
 import App from './App.vue'
 import router from './router'
 

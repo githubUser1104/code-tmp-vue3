@@ -1,5 +1,29 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+</script>
+
+<template>
+  <nav>
+    <RouterLink to="/">基础语法</RouterLink>
+  </nav>
+  <RouterView />
+</template>
+
+<style>
+  #app {
+    padding: 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+
+<!-- default -->
+
+<!-- 
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -82,4 +106,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
